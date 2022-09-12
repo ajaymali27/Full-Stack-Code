@@ -1,0 +1,17 @@
+.imgwidth img{
+    width: 100px  ;
+    height: 100px;
+}
+.ig1{
+    outline: 2px solid black;
+    width: 100px;
+}
+div{
+    border: 1px solid black;
+    float: left;
+}
+.lorem1{
+    width: 100px;
+    float: right;
+    clear: right;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Simple html form</h2>
+    <!--form action: Use in backend .our backend name=backend.php-->
+    <form action="backend.php">
+        <!-- We can use div insted of br  -->
+        <div>
+            <!-- name=it is used to give a name to the control which is sent to the server to be recognized and get the value. -->
+            <label for="ig1">Name:</label>
+            <input type="text" name="myname" id="ig1">
+        </div>
+        <br>
+        <div>
+            <label for="ig2">Work:</label>
+            <input type="text" name="mywork" id="ig2">
+        </div>
+        <br>
+        <div>
+
+            <label for="ig3">Email:</label>
+
+            <input type="email" name="myemail" id="ig3">
+        </div>
+        <br>
+
+        <div>
+            <label for="ig4">Date: </label>
+            <input type="date" name="" id="ig4">
+        </div>
+        <br>
+        <label for="ig5"> Salary:</label>
+        <input type="number" name="" id="ig5">
+        </div>
+        <br>
+
+        <div>
+
+            <label for="ig6">Are You Eligible ?:</label>
+            <input type="checkbox" name="MyEligibility" id="ig6">
+        </div>
+        <div>
+            Gender:
+            Male<input type="radio" name=" Gender" id="male">
+            Female<input type="radio" name=" Gender" id="male">
+            Other<input type="radio" name=" Gender" id="male">
+        </div>
+        <div>
+            <input type="submit" name="form1" id="submit form">
+            <input type="reset" name="form1" id="reset form">
+        </div>
+        <br>
+        <div>
+            Discription:
+            <textarea name="Mytext" id="sss" cols="25" rows="10"></textarea>
+        </div>
+        <br>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
